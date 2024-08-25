@@ -13,7 +13,7 @@ const Main = () => {
   const handleSubmit = async () => {
     try {
       const jsonInput = JSON.parse(inputData);
-      const res = await fetch('https://your-backend-url.com/bfhl', {
+      const res = await fetch('https://bajaj-92.onrender.com/api/v1/assignment/bfhl', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
